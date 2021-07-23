@@ -1,0 +1,9 @@
+runtime: nodejs
+env: flex
+beta_settings:
+  cloud_sql_instances: lost-and-found-47118:europe-west6:lost-and-found-db
+env_variables:
+  DB_USER: hapi-server
+  DB_PASS: Lost1994*
+  DB_NAME: lost-and-found
+  DB_SOCKET: /cloudsql/lost-and-found-47118:europe-west6:lost-and-found-db
