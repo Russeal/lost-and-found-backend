@@ -23,8 +23,10 @@ var _getItemsByCategory = require("./getItemsByCategory");
 
 var _getProfileItems = require("./getProfileItems");
 
+var _searchItems = require("./searchItems");
+
 var _updateItem = require("./updateItem");
 
-var _default = [_getAllItems.getAllItemsRoute, _getItem.getItemRoute, _getProfileItems.getProfileItemsRoute, _createNewItem.createNewItemRoute, _updateItem.updateItemRoute, _deleteItem.deleteItemRoute, _files.staticFilesRoute, _getItemsByCategory.getItemsByCategoryRoute].concat((0, _toConsumableArray2["default"])(_files.filesRoutes));
+var _default = [_getAllItems.getAllItemsRoute, _getItem.getItemRoute, _getProfileItems.getProfileItemsRoute, _createNewItem.createNewItemRoute, _updateItem.updateItemRoute, _deleteItem.deleteItemRoute, _files.staticFilesRoute, _getItemsByCategory.getItemsByCategoryRoute, _searchItems.searchItemsRoute].concat((0, _toConsumableArray2["default"])(_files.filesRoutes));
 
 exports["default"] = _default;

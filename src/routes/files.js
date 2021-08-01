@@ -4,6 +4,7 @@ const angularRoutePaths = [
     '/my-items',
     '/new-item',
     '/items/{id}',
+    '/search',
     '/edit-item/{id}',
     '/contact/{id}',
     '/{category}/items',
@@ -12,6 +13,7 @@ const angularRoutePaths = [
     '/en/my-items',
     '/en/new-item',
     '/en/items/{id}',
+    '/en/search',
     '/en/edit-item/{id}',
     '/en/contact/{id}',
     '/en/{category}/items'

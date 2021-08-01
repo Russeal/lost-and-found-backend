@@ -5,6 +5,7 @@ import { getAllItemsRoute } from "./getAllItems";
 import { getItemRoute } from "./getItem";
 import { getItemsByCategoryRoute } from "./getItemsByCategory";
 import { getProfileItemsRoute } from "./getProfileItems";
+import { searchItemsRoute } from "./searchItems";
 import { updateItemRoute } from "./updateItem";
 
 export default[
@@ -16,5 +17,6 @@ export default[
     deleteItemRoute,
     staticFilesRoute,
     getItemsByCategoryRoute,
+    searchItemsRoute,
     ...filesRoutes
 ];
